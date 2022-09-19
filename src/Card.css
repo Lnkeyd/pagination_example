@@ -1,0 +1,38 @@
+.card__wrapper {
+    width: 49%;
+    height: 200px;
+    display: flex;
+}
+
+.card__text {
+    margin-left: 60px;
+}
+
+.card__title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card__capital {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card__ccn3 {
+    padding-left: 5px;
+    padding-right: 200px;
+    width: fit-content;
+    background-color: black;
+}
+
+.card__ccn3 > p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card__flag {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
